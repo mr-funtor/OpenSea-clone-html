@@ -1,0 +1,25 @@
+*{
+	box-sizing:border-box;
+	margin:0;
+	padding:0;
+}
+
+:root{
+	--logo-color:#444d56;
+	--text-color:#000;
+	--sub-text-color:#eaecef;
+}
+
+body{
+	font-family: Poppins, sans-serif;
+}
+
+.nav-bar{
+	padding: 20px 25px;
+	display:grid;
+	grid-template-columns: 2fr 2fr 2fr 0.5fr;
+}
+
+.logo{
+	height: 
+}
