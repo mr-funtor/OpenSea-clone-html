@@ -5,7 +5,7 @@
 }
 
 :root{
-	--logo-color:#444d56;
+	--logo-color:#1868b7;
 	--text-color:#000;
 	--sub-text-color:rgba(4, 17, 29, 0.75);
 }
@@ -15,16 +15,23 @@ body{
 }
 
 .nav-bar{
+	position:sticky;
+	top:0;
+	height: 73px;
+	background: #fff;
 	padding: 8px 25px;
 	display:grid;
 	grid-template-columns: 1.6fr 2fr 2fr 0.5fr;
 	align-items:center;
+	box-shadow: 0px 2px 2px rgba(211,211,211,1);
+	z-index:99;
 }
 
 .logo-area{
 	display:flex;
 	align-items:center;
 	/* background: blue; */
+	cursor:pointer;
 }
 
 .logo{
@@ -74,14 +81,218 @@ body{
 .pages-nav-area{
 	display:flex;
 	justify-content:space-between;
-	margin-right: 60px;
+	margin-right: 50px;
 	font-size: 16px;
 	font-weight: bold;
 	color: var(--sub-text-color);
+}
+
+.pages-nav-area>p{
+	cursor:pointer;
 }
 
 .nav-icons-area{
 	display:flex;
 	justify-content:space-between;
 	font-size: 28px;
+	color: var(--sub-text-color);
 }
+
+.nav-icons-area>i{
+	cursor:pointer;
+}
+
+.hero-area{
+	position:relative;
+	background: url('../img/volcano.jpg') -0px -520px/cover no-repeat ;
+	min-height: 95vh;
+	width:100%;
+	
+}
+
+.frost-screen{
+	position:absolute;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	-webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+	background:linear-gradient(rgba(255,255,255,0.7),rgba(255,255,255,0.8),rgba(255,255,255,0.9), rgba(255,255,255,0.9),rgba(255,255,255,1));
+	/* background:red; */
+	padding: 38px 20px 45px 20px;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap:25px;
+}
+
+.left-hero,.right-hero{
+	/* background:red; */
+	width:100%;
+	padding:35px;
+	/* margin: 0px 35px; */
+}
+
+.left-hero{
+	display:flex;
+	flex-direction:column;
+	padding-top: 65px;
+	padding:65px 34px 80px 34px;
+	/* padding-bottom: 80px; */
+	justify-content: space-between;
+	/* height:80%; */
+	/* flex:3; */
+	/* background:pink; */
+}
+
+.left-hero-btn-area{
+	margin-top: 17px;
+}
+
+
+.left-hero>h1{
+	font-size: 47.5px;
+	line-height: 110%;
+}
+
+.left-hero>h2{
+	font-weight: 500;
+	line-height: 140%;
+}
+
+.left-hero button{
+	height: 50px;
+	min-width: 8vw;
+	width: 13vw;
+	margin-right: 20px;
+	border:1px solid var(--logo-color);
+	border-radius: 10px;
+	font-size: 15px;
+	font-weight:bold;
+	cursor:pointer;
+}
+
+.left-hero button:first-child{
+	background: var(--logo-color);
+	color: #fff;
+}
+
+.left-hero button:last-child{
+	background: #fff;
+	color: var(--logo-color);
+}
+
+.right-hero{
+	grid-row: span 2;
+	padding: 0px 35px;
+}
+
+.hero-nft{
+	/* background:yellow; */
+	height:100%;
+	border-radius:12px;
+	overflow:hidden;
+	cursor:pointer;
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.2);
+	/* display:grid; */
+	/* grid-template-rows: 3fr 1fr; */
+	/* display:flex; */
+	/* flex-direction:column; */
+}
+
+.hero-nft>header{
+	position:relative;
+	height: 85%;
+	/* flex:4; */
+	
+}
+
+.hero-nft>header>img{
+	position:absolute;
+	top:0;
+	height:100%;
+	width:100%;
+	/* max-width:100%; */
+	/* min-height:100%; */
+	object-fit:cover;
+}
+
+.hero-nft>footer{
+	/* flex:1; */
+	background:#fbfdff;
+	height:15%;
+	display:flex;
+	justify-content:space-between;
+	padding:0px 20px;
+	color:black;
+}
+
+.hero-nft-profile{
+	display:flex;
+	align-items:center;
+}
+
+.hero-nft-profile img{
+	height: 40px;
+	border-radius:50%;
+	margin-right: 20px;
+}
+
+.hero-nft-profile p{
+	font-size: 15px;
+	line-height:140%;
+	font-weight:bold;
+}
+
+.hero-nft-profile p:last-child{
+	color: var(--logo-color);
+}
+
+.left-hero-base{
+	display:flex;
+	align-items: flex-end;
+	padding: 2px 35px;
+	color: var(--logo-color);
+}
+
+.notable-drops-area{
+	/* background:pink; */
+	height: 130vh;
+	width:100%;
+	padding: 0px 30px;
+	/* overflow:hidden; */
+}
+
+.notable-drops-area>h2{
+	height: 18%;
+	display:flex;
+	align-items:center;
+	justify-content:center;
+	font-size: 26px;
+}
+
+.carousel-case{
+	position:relative;
+	background:coral;
+	height:72%;
+	width:100%;
+	
+}
+
+.carousel-filter{
+	height:100%;
+	width: 95%;
+	margin:auto;
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-column-gap: 30px;
+}
+
+.carousel-post{
+	background:red;
+	height:100%;
+	width:100%;
+}
+
+
+
