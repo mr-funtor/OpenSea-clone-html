@@ -16,6 +16,7 @@ body{
 	font-family: Poppins, sans-serif;
 }
 
+	/* NAV BAR */
 .nav-bar{
 	position:sticky;
 	top:0;
@@ -104,6 +105,8 @@ body{
 	cursor:pointer;
 }
 
+		
+		/* HERO SECTION */
 .hero-area{
 	position:relative;
 	background: url('../img/volcano.jpg') -0px -520px/cover no-repeat ;
@@ -162,7 +165,7 @@ body{
 	line-height: 140%;
 }
 
-.left-hero button{
+.main-buttons{
 	height: 50px;
 	min-width: 8vw;
 	width: 13vw;
@@ -174,7 +177,7 @@ body{
 	cursor:pointer;
 }
 
-.left-hero button:first-child{
+.button-blue{
 	background: var(--logo-color);
 	color: #fff;
 }
@@ -257,6 +260,7 @@ body{
 	color: var(--logo-color);
 }
 
+		/* NOTABLE DROPS SECTION */
 .notable-drops-area{
 	/* background:pink; */
 	height: 140vh;
@@ -385,7 +389,7 @@ body{
 	cursor:pointer;
 }
 
-.carousel-btn-case button{
+.carousel-btn{
 	background:#fff;
 	padding:15px 19px;
 	display:flex;
@@ -398,7 +402,7 @@ body{
 	cursor:pointer;
 }
 
-.carousel-btn-case button:hover{
+.carousel-btn:hover{
 	box-shadow: var(--gen-shadow);
 }
 
@@ -421,4 +425,225 @@ body{
 .carousel-nav>li:not(.carousel-nav>li:first-child):hover{
 	color:rgba(24,104,183,1);
 }
+
+
+	/* TOP COLLECTION SECTION */
+.top-collections-section{
+	/* background:pink; */
+	height:115vh;
+	padding:25px 50px;
+}
+
+.section-heading{
+	width:100%;
+	text-align:center;
+	padding:40px 0px;
+	margin-bottom:10px;
+}
+
+.section-heading>span{
+	color:var(--logo-color);
+	cursor:pointer;
+}
+
+.collections-filter{
+	/* background:coral; */
+	height:70%;
+	width:100%;
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-column-gap: 45px;
+}
+
+
+.collections-box{
+	/* background:blue; */
+	display:grid;
+	grid-template-rows: repeat(5,1fr);
+}
+
+.main-collection{
+	/* background:green; */
+	display:grid;
+	grid-template-columns:0.5fr 1fr 1.5fr 3fr;
+	align-items:center;
+	font-weight:bold;
+	padding: 0px 20px;
+	height:100%;
+	border-bottom:1px solid rgb(229, 232, 235);
+	/* transition: all 0.1s ease-in; */
+}
+
+.main-collection:hover{
+	border-bottom:none;
+	border-radius: 12px;
+	box-shadow:var(--gen-shadow);
+}
+
+
+.main-collection>img{
+	height:48px;
+	border-radius:50%;
+	margin-right:10px;
+}
+
+.user-state>p{
+	/* background:pink; */
+	/* max-width:150px; */
+	white-space: nowrap;
+    overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.user-state span>p{
+	margin-top:3px;
+	font-size: 14px;
+	color:rgb(138 147 155);
+}
+
+.main-collection>p:last-child{
+	justify-self:flex-end;
+	color:rgb(52, 199, 123);
+	font-weight:300;
+}
+
+.rankings-btn-case{
+	width:100%;
+	padding:40px 0px;
+	display:flex;
+	align-items: center;
+	justify-content:center;
+	margin-top: 10px;
+}
+
+		/* CATEGORIES SECTION */
+.trending-category-section{
+	/* background:pink; */
+	width:100%;
+	height: 110vh;
+	padding:25px 50px;
+	margin-top: 50px;
+}
+
+.categories-box{
+	background:coral;
+	position:relative;
+	height:65%;
+	width:100%;
+}
+
+.categories-filter{
+	background:pink;
+	height:100%;
+	width:95%;
+	margin:auto;
+	display:grid;
+	grid-template-columns: repeat(3,1fr);
+	grid-column-gap: 20px;
+}
+
+.main-category{
+	background:blue;
+	position:relative;
+	height:100%;
+	width:100%;
+}
+
+.main-category>header{
+	background:yellow;
+	height:50%;
+	width:100%;
+}
+
+.main-category>header>img{
+	position:absolute;
+	height:100%;
+	width:100%;
+	object-fit:cover;
+}
+
+.main-category>img{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform: translate(-50%,-50%);
+	height: 40px;
+	width: 40px;
+	border: 1px solid black;
+	border-radius: 50%;
+}
+
+.main-category>header{
+	background:yellow;
+	height:50%;
+	width:100%;
+}
+
+.main-category>footer{
+	height:50%;
+	width:100%;
+	padding: 30px 40px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	align-items:center;
+}
+.categories-btn-case{
+	position:absolute;
+	width:100%;
+	top:50%;
+	transform: translateY(-50%);
+	display:flex;
+	justify-content:space-between;
+}
+
+		/* CREATE AND SELL SECTION */
+
+.create-sell-section{
+	background:rgb(251 253 255);
+	width:100%;
+	height: 80vh;
+	padding:25px 30px;
+	margin-top: 30px;
+}
+
+.create-sell-box{
+	/* background:coral; */
+	width:100%;
+	height: 52%;
+	display:grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-column-gap: 60px;
+}
+
+.main-create{
+	/* background:pink; */
+	width:100%;
+	height:100%;
+	display:flex;
+	flex-direction:column;
+	justify-content: space-around;
+	align-items:center;
+	text-align:center;
+}
+
+.main-create>h6{
+	font-size: 16px;
+}
+
+.main-create>p{
+	font-size: 18px;
+	color:var(--sub-text-color);
+}
+
+.main-create>img{
+	height:40px;
+}
+
+.main-create span{
+	color: var(--logo-color);
+	font-weight:bold;
+	cursor:pointer;
+}
+
 
