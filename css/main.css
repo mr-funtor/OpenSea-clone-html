@@ -919,6 +919,7 @@ body{
 	color: rgb(32, 129, 226);
 	stroke:transparent;
 	fill: rgba(251, 253, 255, 0.75);
+	cursor:pointer;
 }
 
 .partners-section>svg.TrustWallet{
@@ -976,6 +977,12 @@ body{
 	color:white;
 }
 
+.loop form input[type="submit"]:hover{
+	background-color: rgb(74 157 239);
+	cursor:pointer;
+	
+}
+
 .community-btns-case{
 	/* background: yellow; */
 	width:100%;
@@ -996,6 +1003,11 @@ body{
 .community-btns-case>button>i{
 	color:#fff;
 	font-size: 24px;
+}
+
+.community-btns-case>button:hover{
+	background-color: rgb(74 157 239);
+	cursor:pointer;
 }
 
 .footer-middle{
@@ -1037,6 +1049,11 @@ body{
 	list-style:none;
 	line-height: 210%;
 	font-size: 15px;
+}
+
+.footer-middle-right li:hover{
+	font-weight:bold;
+	cursor:pointer;
 }
 
 .footer-middle-right h3,.account-side{

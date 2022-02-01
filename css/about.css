@@ -1,0 +1,31 @@
+.about-hero{
+	width:100%;
+	height:115vh;
+	padding: 18vh 40px 15vh 40px;
+	display:flex;
+	gap:  0px 90px;
+}
+
+.about-hero-left{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+
+.about-hero-left>p{
+	color: var(--sub-text-color);
+}
+
+.about-hero-left>p span{
+	color: var(--logo-color);
+	cursor:pointer;
+}
+
+.about-hero-left>h1{
+	font-size: 40px;
+	line-height: 120%;
+}
+
+.about-hero img{
+	height:88vh;
+}
