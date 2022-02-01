@@ -926,3 +926,143 @@ body{
 	/* border: 1px solid red; */
 }
 
+
+		/* FOOTSECTION */
+.footer-section{
+	background: var(--logo-color);
+	width:100%;
+	height: 145vh;
+	padding: 20px 100px;
+	color:white;
+}
+
+.footer-top{
+	/* background:pink; */
+	height: 42vh;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	border-bottom: 1px solid rgba(251, 253, 255, 0.75);
+	grid-column-gap: 140px;
+	padding: 35px 0px;
+}
+
+.loop{
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+	
+}
+
+.loop form input[type="text"]{
+	background:#fff;
+	width: 25vw;
+	height: 45px;
+	padding: 10px 20px;
+	margin-right:10px;
+	border:none;
+	border-radius: var(--main-border-rad);
+	font-size: 17px;
+}
+
+.loop form input[type="submit"]{
+	background-color: rgb(32, 129, 226);
+	width: 10vw;
+	height: 45px;
+	padding: 10px 20px;
+	border:none;
+	border-radius: var(--main-border-rad);
+	font-size: 17px;
+	font-weight:bold;
+	color:white;
+}
+
+.community-btns-case{
+	/* background: yellow; */
+	width:100%;
+	height:60px;
+	display:flex;
+	justify-content:space-between;
+}
+
+.community-btns-case>button{
+	background-color: rgb(32, 129, 226);
+	width: 60px;
+	height:100%;
+	border:none;
+	border-radius:5px;
+	margin-top:15px;
+}
+
+.community-btns-case>button>i{
+	color:#fff;
+	font-size: 24px;
+}
+
+.footer-middle{
+	height: 85vh;
+	width:100%;
+	padding: 80px 0px;
+	border-bottom: 1px solid rgba(251, 253, 255, 0.75);
+	display:grid;
+	grid-template-columns: 1fr 3fr;
+	grid-column-gap: 130px;
+}
+
+.footer-middle-left{
+	/* background: pink; */
+	width:100%;
+	height: 38vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-between;
+}
+
+.footer-middle-left>img{
+	height:40px;
+	width:40px;
+}
+
+.footer-middle-left>svg{
+	stroke:#fff;
+	fill:#fff;
+}
+
+.footer-middle-right{
+	width:100%;
+	display:flex;
+	justify-content: space-between;
+}
+
+.footer-middle-right li{
+	list-style:none;
+	line-height: 210%;
+	font-size: 15px;
+}
+
+.footer-middle-right h3,.account-side{
+	margin-bottom: 20px;
+}
+
+.account-side{
+	margin-bottom: 8vh;
+}
+
+
+.footer-bottom{
+	/* background:pink; */
+	width: 100%;
+	height:15vh;
+	display:flex;
+	justify-content:space-between;
+	align-items: center;
+	font-size: 14px;
+}
+
+.footer-bottom-right{
+	display:flex;
+}
+
+
+.footer-bottom-right>p:first-child{
+	margin-right: 20px;
+}
