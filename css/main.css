@@ -8,6 +8,7 @@
 	--logo-color:#1868b7;
 	--accent-color:rgb(32 129 226);
 	--text-color:#000;
+	--light-text-color:rgb(112, 122, 131);
 	--sub-text-color:rgba(4, 17, 29, 0.75);
 	--main-border-rad:12px;
 	--gen-shadow:2px 2px 3px 4px rgba(169, 169, 169,0.17),-2px -2px 3px 4px rgba(169, 169, 169,0.17);
@@ -815,7 +816,7 @@ body{
 }
 
 .main-browse-category>header{
-	background:blue;
+	/* background:blue; */
 	position:relative;
 	height:80%;
 	width:100%;
