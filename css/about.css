@@ -1,7 +1,7 @@
 .about-hero{
 	width:100%;
-	height:115vh;
-	padding: 18vh 40px 15vh 40px;
+	height:110vh;
+	padding: 18vh 40px 12vh 40px;
 	display:flex;
 	gap:  0px 90px;
 }
@@ -28,4 +28,125 @@
 
 .about-hero img{
 	height:88vh;
+}
+
+.about-hero-base{
+	/* background:pink; */
+	width:100%;
+	height: 30vh;
+	padding: 10vh 100px;
+	display:grid;
+	grid-template-columns: repeat(6,1fr);
+	align-content:center;
+}
+
+
+.base-info{
+	/* background:yellow; */
+	height: 100%;
+	width:100%;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	/* justify-content:center; */
+	text-align:center;
+}
+
+.about-hero-base img{
+	height: 40px;
+}
+
+.about-hero-base p:first-child{
+	font-size:22px;
+	font-weight:bold;
+}
+
+.about-hero-base p:last-child{
+	color:var(--sub-text-color);
+}
+
+/* FOUNDERS SECTION */
+
+.story-section{
+	/* background:pink; */
+	width: 100%;
+	height: 130vh;
+	
+}
+
+.story-body{
+	width:100%;
+	padding-top:30px;
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	justify-items:center;
+}
+
+.story-body img{
+	height: 90vh;
+	display:flex;
+	justify-content:center;
+	/* flex:1; */
+}
+
+.story-body p{
+	width:100%;
+	color:var(--sub-text-color);
+	/* flex:1; */
+	
+}
+
+.story-body p span{
+	color:var(--logo-color);
+}
+
+
+.industry-section{
+	/* background-color: rgb(32, 129, 226); */
+	width:100%;
+	min-height:150px;
+	padding: 30px 50px;
+	/* display:grid; */
+	/* grid-template-columns: repeat(6,1fr); */
+	/* grid-row-gap:30px; */
+	/* align-items:center; */
+	
+	display:flex;
+	flex-wrap:wrap;
+	justify-content:space-evenly;
+	gap: 20px 20px;
+}
+
+
+.industry-section>svg,
+.industry-section>img{
+	/* background:blue; */
+	height: 60px;
+	width: 170px;
+	color: rgb(32, 129, 226);
+	stroke:transparent;
+	fill: var(--sub-text-color);
+	cursor:pointer;
+}
+
+	/* INDUSTRY ANGELS */
+
+.angels-section{
+	background:pink;
+	width:100%;
+	height:120vh;
+}
+
+.angels-section .meet-section-headings>h1{
+	font-size:25px;
+}
+
+.angels-list{
+	display:flex;
+	justify-content: space-evenly;
+	flex-wrap:wrap;
+}
+
+.main-angel{
+	
 }
