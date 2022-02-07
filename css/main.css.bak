@@ -114,7 +114,7 @@ body{
 
 .nav-area-sub-menu{
 	background:#fff;
-	min-width:230px;
+	min-width:250px;
 	position:absolute;
 	top: 30px;
 	left:0px;

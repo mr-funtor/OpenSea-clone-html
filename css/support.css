@@ -1,0 +1,126 @@
+.nav-bar-support{
+	position:sticky;
+	top:0;
+	height: 73px;
+	background: #fff;
+	padding: 8px 6vw;
+	display:flex;
+	justify-content: space-between;
+	/* grid-template-columns: 1.6fr 2fr 2fr 0.5fr; */
+	align-items:center;
+	box-shadow: 0px 2px 2px rgba(211,211,211,1);
+	z-index:99;
+}
+
+.nav-bar-support>section{
+	display:flex;
+	align-items:center;
+}
+
+
+.nav-bar-support>section>h1{
+	/* background:blue; */
+	padding: 10px;
+	margin-left: 10px;
+	font-weight: 600;
+	border-left: 1px solid rgba(112, 122, 131,0.4);
+}
+
+.nav-bar-support>.main-buttons{
+	width: 12vw;
+	height: 45px;
+}
+
+.support-hero-section{
+	background: url("../img/support-hero.png") no-repeat;
+	background-size:cover;
+	width: 100%;
+	height: 50vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+
+.support-search-area{
+	background:#fff;
+	height: 45px;
+	padding: 15px;
+	width: 50vw;
+	margin-right: 20px;
+	border: 1px solid rgb(229, 232, 235);
+	border-radius: 10px; 
+	display:flex;
+	align-items:center;
+}
+
+.support-search-area>input{
+	border:none;
+	margin-left: 10px;
+	font-size: 18px;
+	font-weight:100;
+}
+
+		/* HELP SECTION */
+
+.help-section{
+	/* background:pink; */
+	width:100%;
+	height: 100vh;
+	padding: 40px 70px 10px 70px;
+	display: flex;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+.main-help{
+	background: transparent;
+	height: 170px;
+	width: 350px;
+	padding: 15px 28px;
+	display:flex;
+	flex-direction:column;
+	justify-content:space-evenly;
+	text-align:center;
+	border: 1px solid rgb(229, 232, 235);
+	border-radius: 5px;
+}
+
+.main-help:hover{
+	box-shadow:var(--gen-shadow);
+}
+
+.main-help:nth-child(7),
+.main-help:last-child{
+	height: 140px;
+	width:48%;
+}
+
+		/* PROMOTED ARTICLE SECTION */
+.promoted-article-section{
+	/* background:pink; */
+	min-height:100vh;
+	width:100%;
+	padding: 5px 70px 10px 70px;
+	
+	/* display: flex; */
+	/* flex-wrap:wrap; */
+	/* justify-content: space-between; */
+}		
+
+.support-articles-box{
+	margin-top: 20px;
+	display:grid;
+	grid-template-columns:repeat(3,1fr);
+	gap:30px;
+}
+
+.support-articles-box>p{
+	font-size:20px;
+	cursor:pointer;
+}
+
+.support-articles-box>p:hover{
+	font-weight:bold;
+	
+}
+

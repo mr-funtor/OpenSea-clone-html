@@ -1,0 +1,125 @@
+.marketplace-hero{
+	width:100%;
+	height:115vh;
+	padding: 18vh 40px 12vh 40px;
+	display:flex;
+	gap:  0px 90px;
+}
+
+.marketplace-hero-left{
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+}
+
+.marketplace-hero-left>p{
+	color: var(--sub-text-color);
+}
+
+.marketplace-hero-left>p span{
+	color: var(--logo-color);
+	cursor:pointer;
+}
+
+.marketplace-hero-left>h1{
+	font-size: 40px;
+	line-height: 120%;
+}
+
+/* .marketplace-hero-right{ */
+	/* background:pink; */
+
+	/* width:100%; */
+	/* right:100%; */
+/* } */
+
+.marketplace-hero img{
+	height:88vh;
+}
+
+.marketplace-hero-left .main-buttons{
+	width: 150px;
+}
+
+.blockchain-section .main-buttons{
+	position:relative;
+	width: 250px;
+	left:50%;
+	transform:translate(-50%, 50%);
+}
+
+.blockchain-section .carousel-nav{
+	/* transform:translateY(-50%); */
+}
+
+.blockchain-filter footer{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	text-align:center;
+	padding: 0px 70px;
+	font-weight:bold;
+}
+
+.blockchain-filter footer>p{
+	color:#000;
+}
+
+.pages-nav-area-newsletter{
+	/* background:pink; */
+	width:55vw;
+	display:flex;
+	justify-content:space-between;
+	margin-right: 50px;
+	font-size: 16px;
+	font-weight: bold;
+	color: var(--sub-text-color);
+}
+
+.pages-nav-area-newsletter>li{
+	list-style:none;
+}
+
+.pages-nav-area-newsletter>li:hover{
+	color:black;
+	cursor:pointer;
+}
+
+.newsletter-container{
+	background:rgb(237 246 255 / 55%);
+	width:100%;
+	height:115vh;
+	padding: 10vh 20px 12vh 20px;
+	
+}
+
+.newsletter-container .marketplace-hero{
+	background: #fff;
+	width:100%;
+	height:100%;
+	border:1px solid rgba(112, 122, 131,0.2);
+	border-radius:var(--main-border-rad);
+}
+
+
+.newsletter-container .marketplace-hero-left{
+	width:48%;
+	padding: 25px 33px;
+}
+
+.newsletter-container .marketplace-hero-left>p{
+	font-size: 18px;
+	line-height:130%;
+}
+
+.marketplace-hero-left input[type="text"]{
+	height:40px;
+	border:1px solid rgba(112, 122, 131,0.7);
+	border-radius:5px;
+	font-size: 17px;
+	padding: 0px 9px;
+}
+
+.newsletter-container img{
+	height:70vh;
+}
