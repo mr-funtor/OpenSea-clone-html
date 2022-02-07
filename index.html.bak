@@ -45,6 +45,7 @@
 						<li>Virtual Worlds</li>
 					</ul>
 				</li>
+				
 				<li>Stats
 					<ul class="nav-area-sub-menu">
 						<li>Rankings</li>
@@ -52,7 +53,29 @@
 					</ul>
 				
 				</li>
-				<li>Resources</li>
+				
+				<li>Resources
+					<ul class="nav-area-sub-menu">
+						<li>Help Center</li>
+						<li>Platform Status</li>
+						<li>Partners</li>
+						<li>Gas-Free Marketplace</li>
+						<li>Blog</li>
+						<li>Docs</li>
+						<li>Newsletter</li>
+						<li>
+							<button><i class="fab fa-twitter"></i></button>
+							<button><i class="fab fa-instagram"></i></button>
+							<button><i class="fab fa-discord"></i></button>
+							<button><i class="fab fa-reddit-alien"></i></button>
+							<button><i class="fab fa-youtube"></i></button>
+							<button><i class="far fa-envelope"></i></button>
+						</li>
+						
+					</ul>
+				
+				</li>
+				
 				<li>Create</li>
 			</ul>
 			
