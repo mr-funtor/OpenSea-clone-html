@@ -31,12 +31,53 @@
 				<input class="search-bar" type="text" placeholder="Search items, collections, and accounts"/>
 			</div>
 			
-			<div class="pages-nav-area">
-				<p>Explore</p>
-				<p>Stats</p>
-				<p>Resources</p>
-				<p>Create</p>
-			</div>
+			<ul class="pages-nav-area">
+				<li>Explore
+					<ul class="nav-area-sub-menu">
+						<li><img src="./img/allnfts-light.svg" alt=""/>All NFTs</li>
+						<li><img src="./img/art-light.svg" alt=""/>Art</li>
+						<li><img src="./img/collectibles-light.svg" alt=""/>Collectibles</li>
+						<li><img src="./img/domain-names-light.svg" alt=""/>Domain Names</li>
+						<li><img src="./img/music-light.svg" alt=""/>Music</li>
+						<li><img src="./img/photography-category-light.svg" alt=""/>Photography</li>
+						<li><img src="./img/sports-light.svg" alt=""/>Sports</li>
+						<li><img src="./img/trading-cards-light.svg" alt=""/>Trading Cards</li>
+						<li><img src="./img/utility-light.svg" alt=""/>Utility</li>
+						<li><img src="./img/virtual-worlds-light.svg" alt=""/>Virtual Worlds</li>
+					</ul>
+				</li>
+				
+				<li>Stats
+					<ul class="nav-area-sub-menu">
+						<li>Rankings</li>
+						<li>Activities</li>
+					</ul>
+				
+				</li>
+				
+				<li>Resources
+					<ul class="nav-area-sub-menu">
+						<li><a href="/OpenSea-clone-html/pages/support.html" target="blank">Help Center</a></li>
+						<li>Platform Status</li>
+						<li>Partners</li>
+						<li><a href="/OpenSea-clone-html/pages/marketplace.html" target="blank">Gas-Free Marketplace</a></li>
+						<li>Blog</li>
+						<li>Docs</li>
+						<li><a href="/OpenSea-clone-html/pages/newsletter.html" target="blank">Newsletter</a></li>
+						<li class="nav-area-sub-box">
+							<i class="fab fa-twitter"></i>
+							<i class="fab fa-instagram"></i>
+							<i class="fab fa-discord"></i>
+							<i class="fab fa-reddit-alien"></i>
+							<i class="fab fa-youtube"></i>
+						</li>
+						
+					</ul>
+				
+				</li>
+				
+				<li>Create</li>
+			</ul>
 			
 			<div class="nav-icons-area">
 				<i class="far fa-user-circle"></i>
