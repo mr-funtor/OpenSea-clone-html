@@ -76,11 +76,6 @@
 	color: var(--sub-text-color);
 }
 
-.nav-icons-area-newsletter>i:hover{
-	cursor:pointer;
-	color:#000;
-}
-
 .pages-nav-area-newsletter{
 	/* background:pink; */
 	width:50vw;

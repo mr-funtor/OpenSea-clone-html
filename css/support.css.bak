@@ -32,7 +32,13 @@
 	height: 45px;
 }
 
-
+.nav-icons-area-blog{
+	background:blue;
+	display:flex;
+	justify-content:space-between;
+	font-size: 20px;
+	color: var(--sub-text-color);
+}
 
 .support-hero-section{
 	background: url("../img/support-hero.png") no-repeat;
